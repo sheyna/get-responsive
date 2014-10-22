@@ -43,7 +43,8 @@ body {
   background-color: #bcc6ac; /* light green */
 }
 .titleBlock {
-  width: 90%;
+  width: 70%;
+  margin: 0 auto;
 }
 .insetPhotos { /* Only shows in under 600px view */
   visibility: hidden;

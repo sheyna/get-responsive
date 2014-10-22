@@ -10,9 +10,6 @@ a:hover {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1500px) {
-  .titleBlock {
-    margin-left: 20%;
-  }
   .contentBox {
     width: 45%;
   }
@@ -22,10 +19,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-  .titleBlock {
-    font-size: 100%;
-    margin-left: 15%;
-  }
   .contentBox {
     width: 45%;
   }
@@ -37,8 +30,6 @@ a:hover {
 @media only screen and (max-width: 1024px) {
   .titleBlock {
     font-size: 92%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .contentBox {
     width: 38%;

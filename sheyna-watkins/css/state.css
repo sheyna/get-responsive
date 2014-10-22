@@ -44,6 +44,7 @@ a:hover {
 
 @media only screen and (max-width: 850px) {
   .titleBlock {
+    width: 80%;
     font-size: 82%;
   }
   .contentBox {
@@ -66,6 +67,7 @@ a:hover {
 
 @media only screen and (max-width: 700px) {
   .titleBlock {
+    width: 80%;
     font-size: 70%;
   }
   .contentBox {
@@ -95,6 +97,7 @@ a:hover {
     font-size: 82%;
   }
   .titleBlock {
+    width: 80%;
     font-size: 55%;
   }
   .contentBox {
@@ -133,6 +136,7 @@ a:hover {
 
 @media only screen and (max-width: 480px) {
   .titleBlock {
+    width: 90%;
     font-size: 45%;
   }
   article {

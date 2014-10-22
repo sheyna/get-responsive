@@ -1,0 +1,150 @@
+/* STATE */
+
+.is-hidden {
+  visibility: hidden;
+}
+a:hover {
+  color: #898474; /* brown */
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1500px) {
+  .titleBlock {
+    margin-left: 20%;
+  }
+  .contentBox {
+    width: 45%;
+  }
+  .mosaicWrapper {
+    margin-bottom: 20%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .titleBlock {
+    font-size: 100%;
+    margin-left: 15%;
+  }
+  .contentBox {
+    width: 45%;
+  }
+  .mosaicWrapper {
+    margin-bottom: 60%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .titleBlock {
+    font-size: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contentBox {
+    width: 38%;
+  }
+  .mosaicWrapper {
+    margin-bottom: 100%;
+  }
+  .backgroundBlock--image2 {   /*margin-top: 20%;*/
+    margin-top: 50%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .titleBlock {
+    font-size: 82%;
+  }
+  .contentBox {
+    width: 50%;
+  }
+  article {
+    font-size: 92%;
+  }
+  .mosaicWrapper {
+    margin-bottom: 100%;
+    visibility: hidden;
+  }
+  .backgroundBlock--image2 {
+    margin-top: 0%;
+  }
+  .backgroundBlock {
+    background-position: 20% 0%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .titleBlock {
+    font-size: 70%;
+  }
+  .contentBox {
+    width: 50%;
+  }
+  article {
+    font-size: 92%;
+  }
+  .mosaicWrapper {
+    margin-bottom: 100%;
+    visibility: hidden;
+  }
+  .backgroundBlock--image2 {
+    margin-top: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #d7ddcd; /* light light green */
+  }
+  footer, figure {
+    visibility: hidden;
+  }
+  article {
+    visibility: visible;
+    font-size: 82%;
+  }
+  .titleBlock {
+    font-size: 55%;
+  }
+  .contentBox {
+    width: 75%;
+    margin-bottom: 8%;
+  }
+  .contentBox--Right {
+    float: none;
+    right: 5%;
+    left: 5%;
+  }
+  .mosaicWrapper {
+    margin-bottom: 0%;
+  }
+  .p--inlineFooter {
+    visibility: visible;
+    font-size: 0.8em; /* 10pt */
+    text-align: center;
+    color: #4c4736; /* dark brown */
+    margin-top: 6em;
+    padding-bottom: 2.5em;
+    max-height: auto;
+  }
+  .insetPhotos {
+    visibility: visible;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 2em;
+  }
+  .p--extraTopPadding {
+    padding-top: 0.5em;
+    margin-top: 0.9em;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .titleBlock {
+    font-size: 45%;
+  }
+  article {
+    font-size: 85%;
+  }
+}

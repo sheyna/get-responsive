@@ -1,0 +1,175 @@
+/* LAYOUT */
+
+body {
+  background-color: #898474; /* brown */
+  width: 100%;
+}
+.backgroundBlock { /* box holding color or image */
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0px;
+  display: inline-block;
+}
+.contentBox { /* box holding text */
+  position: absolute;
+  padding: 1.3em 1em 1em 2.7em; /*40px 30px 30px 50px;*/
+  z-index: 1;
+}
+.contentBox--Right { /* position "contentBox" on right */ /*  margin-bottom: 2%;*/
+  float: right;
+  margin-top: 2%;
+  right: 5%;
+  display: inline-block;
+}
+.backgroundBlock--image1 {   /*margin-bottom: 20%;*/
+  background-image: url('../images/house.jpg');
+  height: 480px;
+  background-color: #cbd1dd;
+  margin: 0%;
+}
+.backgroundBlock--image2 {   /*margin-top: 20%;*/
+  background-image: url('../images/tower.jpg');
+  height: 580px;
+  background-color: #f6f4a6;
+  margin: 0%;
+}
+.color1 {
+  background-color: #265944; /* dark green */
+}
+.color2 {
+  background-color: #bcc6ac; /* light green */
+}
+.titleBlock {
+  width: 90%;
+}
+.insetPhotos { /* Only shows in under 600px view */
+  visibility: hidden;
+  max-height: 0px;
+  margin: -10px;
+  padding: -10px;
+}
+
+
+/* MODULE */
+
+/* Headings */
+
+h1 {
+  font-family: 'vollkornbold', Georgia, serif;
+  font-size: 10em;
+  color: #d7ddcd; /* light light green */
+  display: inline-block;
+  font-weight: normal;
+}
+h2 {
+  font-family: 'vollkornitalic', Georgia, serif;
+  font-weight: normal;
+  font-size: 2.5em; /* 30pt; */
+  color: #bcc6ac; /* light green */
+  display: inline-block;
+}
+.h1--title {
+  margin: -0.35em 0em -0.13em 0em;
+}
+.h2--prehead {
+  margin: 1.3em 0em 0em 3em;
+  white-space: nowrap;
+}
+.h2--subhead {
+  margin: 0.1em 0em 1.3em 7.2em;
+  white-space: nowrap;
+}
+
+
+/* Body text styles */
+
+p {
+  font-family: 'vollkornregular', Georgia, serif;
+  font-size: 1.34em; /* 16pt; */
+  line-height: 1.25em; /* 20pt; */
+  color: #4c4736; /* dark brown */
+}
+article p:first-child:first-letter {
+  float: left;
+  color: #265944; /* dark green */
+  padding: 0.15em 0em 0.1em 0.10em;  /* 30px, 0, 0, 20px */
+  font-family: 'vollkornregular', Georgia, serif;
+  font-size: 2.9em; /* 120pt; */
+  line-height: 0.4em; /* 60px; */
+  margin-left: -0.3em; /* -50px; */
+}
+.p--extraTopPadding {
+  margin-top: 0.2em;
+}
+.p--footer {
+  font-size: 0.8em; /* 10pt */
+  text-align: center;
+  margin-top: 5em;
+  padding-bottom: 2em;
+  color: #bcc6ac; /* light green */
+}
+.p--inlineFooter { /* only shows in max-width: 959px */
+  visibility: hidden;
+  max-height: 0px;
+  margin: -10px;
+  padding: -10px;
+}
+.p--floatRight {
+  float: right;
+  text-align: right;
+  margin-right: 0.5em; /* 10px; */
+  margin-top: 5%; /* must match "arrowRight" */
+}
+.p--indent {
+  text-indent: 1em; /* 28px; */
+}
+.p__lead-in {
+  color: #265944; /* dark green */
+  font-variant: small-caps;
+  font-size: 2.6em; /* 40pt; */
+}
+.p__lead-in--hangingIndent {
+  margin-left: -0.3em; /* -10px; */
+  font-size: 1.9em;  /* 30pt; */
+}
+.a--nextPage { /* text link for next part */
+  color: #265944; /* dark green */
+  text-transform: uppercase;
+  font-size: 1.1em; /* 18pt; */
+  text-decoration: none;
+  letter-spacing: -0.1em; /* -2px; */
+}
+
+
+/* GRAPHICAL ELEMENTS */
+
+.arrowRight { /* arrow shape */
+  float: right;
+  margin-right: 20px;
+  margin-top: 5%;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #265944;
+  display: inline-block;
+}
+.mosaicWrapper { /* window wrapper */ /*  margin-bottom: 85%;*/
+  width: 450px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.mosaicWrapper .mosaicWrapper__panel { /* windowpanes */
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+.mosaicWrapper .mosaicWrapper__panel--image3 { /* picture in window */
+  background: url('../images/gardenbed.jpg') 0px -30px no-repeat fixed;
+}
